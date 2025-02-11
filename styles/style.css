@@ -1,1 +1,32 @@
+.bg-info {
+    background-color: rgb(212, 255, 254) !important; /* Light green for secondary backgrounds */
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
+    color: #3a405aff;            /* Dark green for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #f2fbf2;            /* Lightest shade for text on info button for contrast */
+    background-color: #d6e5e3ff; /* Light green for button background */
+    border-color: #3a405aff;     /* Dark green for button border */
+}
+
+.btn-primary {
+    color: #f2fbf2;            /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #3a405aff; /* Dark green for primary button background */
+    border-color: #7692ffff;     /* Reddish-brown for border to use as accent */
+}
+
+body {
+    background-color: rgb(239, 237, 237); /* Lightest shade for body background to follow the 60% rule */
+}
+
+/* CSS HEX */
+/* --delft-blue (darkest) : #3a405aff;
+--asparagus: #698f3fff;
+--cornflower-blue: #7692ffff;
+--ice-blue: #90fcf9ff;
+--azure-web (lightest) : #d6e5e3ff; */
 
